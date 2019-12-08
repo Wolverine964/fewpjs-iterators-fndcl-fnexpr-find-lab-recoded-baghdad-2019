@@ -5,7 +5,7 @@ function testFunc() {
 }
 function superbowlWin(record){
 let x=record.find(record=>record.result==="w");
-if(x === 1969)
+if(x === undefined)
 {
  return x
 }
